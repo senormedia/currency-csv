@@ -1,0 +1,25 @@
+html,body{height: 100%; }
+
+body{justify-content: center; padding-top: 40px;  background-color: #f5f5f5; }
+
+
+#currency-form{width: 100%; max-width: 330px; padding: 15px; margin: 0 auto; }
+#currency-form .form-control{position: relative; box-sizing: border-box; height: auto; padding: 10px; font-size: 16px; }
+#currency-form .form-control:focus{z-index: 2; }
+.inputDnD .form-control-file{position: relative; width: 100%; height: 100%; min-height:4em; outline: none; visibility: hidden; cursor: pointer; background-color: #c61c23; box-shadow: 0 0 5px solid currentColor; }
+.inputDnD .form-control-file:before{content: attr(data-title); position: absolute; left: 0; width: 100%; min-height:4em; line-height:0.2em; padding-top: 1.5em; opacity: 1; visibility: visible; text-align: center; border: 0.25em dashed currentColor; -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); overflow: visible; }
+.inputDnD .form-control-file:hover:before{border-style: solid; box-shadow: inset 0px 0px 0px 0.25em currentColor; }
+
+#converted_data{border-left:0;}
+#converted_data thead{background: #c61c23;  color: #fff;}
+#converted_data td{    padding:5px;}
+#converted_data .tfoot td{font-size:14px;}
+#converted_data .tfoot td{color:#333; font-weight:bold;}
+#converted_data .tfoot td span{color:#111;}
+#converted_data .tfoot tr td:first-child{border:0;}
+
+#converted_data tbody .negative-value{background:red; color:#fff;}
+#converted_data tbody .positive-value{ background:#009900; color:#fff;}
+
+.btn-primary{background: #333; border:solid 1px #000 !important; border-radius: 0;     padding: 16px 0;}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active{background-color:#222 !important;}
